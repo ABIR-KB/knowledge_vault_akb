@@ -151,3 +151,20 @@ body {
   border-radius: 50%;
   margin: 0 auto 20px;
 }
+.two-column-layout {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.green-subtitle {
+  color: #459a65;
+  font-weight: 600;
+}
+.check-list {
+  list-style: none;
+  padding: 0;
+}
+.check-list li {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
