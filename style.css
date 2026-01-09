@@ -168,13 +168,16 @@ body {
   margin-bottom: 16px;
   font-weight: 500;
 }
-<section class="cta-section">
-        <div class="content-wrapper">
-            <div class="cta-box">
-                <h2>Ready To Think More Clearly?</h2>
-                <p>Join thousands of learners today.</p>
-                <a href="#" class="main-button">Get Early Access</a>
-                <span class="tiny-text">No credit card needed</span>
-            </div>
-        </div>
-    </section>
+.site-footer {
+  background-color: #0b192e;
+  color: white;
+  padding: 40px 0;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-line {
+  border-top: 1px solid #1f2937;
+  margin: 20px 0;
+}
